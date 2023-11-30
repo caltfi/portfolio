@@ -1,0 +1,10 @@
+body{
+    font-family: 'Hanken Grotesk', Helvetica, sans-serif;
+}
+
+.portfolio-card{
+    cursor: pointer;
+    transition: all 0.5s ease;
+    max-width: 900px;
+    height: 250px;
+}

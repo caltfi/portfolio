@@ -1,0 +1,8 @@
+# Ignore Bootstrap minified CSS and JS files
+bootstrap.min.css
+bootstrap.min.js
+bootstrap-grid.min.css
+bootstrap.bundle.min.js
+
+#ignore png files and assets
+assets/*
