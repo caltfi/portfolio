@@ -4,7 +4,23 @@ body{
 
 .portfolio-card{
     cursor: pointer;
-    transition: all 0.5s ease;
-    max-width: 900px;
-    height: 250px;
+    transition: all 0.5s ease-in-out;
+}
+
+.portfolio-card:hover{
+    box-shadow: 11px 20px 21px -4px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 11px 20px 21px -4px rgba(0,0,0,0.65);
+    -moz-box-shadow: 11px 20px 21px -4px rgba(0,0,0,0.65);
+}
+
+#profile-pic{
+    transition: all 0.5s ease-in-out;
+    max-height: 400px;
+}
+#profile-pic:hover{
+    box-shadow: 11px 20px 21px -4px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 11px 20px 21px -4px rgba(0,0,0,0.65);
+    -moz-box-shadow: 11px 20px 21px -4px rgba(0,0,0,0.65);
+    transform: rotate(10deg);
+    max-height: 500px;
 }
